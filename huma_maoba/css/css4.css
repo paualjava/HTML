@@ -1,0 +1,1155 @@
+#step-1.hover {
+	-ms-animation: 2s steps(13, end) 0s 1 forwards step1;
+	background-position: -6000px 0;
+}
+ @-ms-keyframes step1 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:-5200px 0;
+}
+}
+#step-2.hover {
+	-ms-animation: 1s steps(11, end) 0s normal none infinite step2;
+}
+#step-3.hover {
+	-ms-animation: .8s steps(11, end) 0s normal none infinite step2;
+}
+ @-ms-keyframes step2 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -5500px;
+}
+}
+#step-5.hover {
+	-ms-animation: 1.2s steps(9, end) 0s normal none infinite step5;
+}
+ @-ms-keyframes step5 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -4221px;
+}
+}
+#step-4.hover {
+	-ms-animation: .3s steps(2, end) 0s normal none infinite step4;
+}
+ @-ms-keyframes step4 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -758px;
+}
+}
+.s24-1 {
+	-ms-animation: 1.5s steps(9, end) 0s normal none infinite s241;
+}
+ @-ms-keyframes s241 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -1197px;
+}
+}
+#step-6.hover {
+	-ms-animation: .8s steps(12, end) 0s 1 forwards step6;
+	background-position: 0 -3600px;
+}
+ @-ms-keyframes step6 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -3600px;
+}
+}
+#step-7.hover {
+	-ms-animation: 1.5s steps(12, end) 0s normal none step7;
+	background-position: -6216px 0;
+}
+ @-ms-keyframes step7 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:-6216px 0;
+}
+}
+#step-8 {
+	-ms-animation: .8s steps(23, end) 0s infinite alternate step8;
+}
+ @-ms-keyframes step8 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -1725px;
+}
+}
+.s24-3 {
+	-ms-animation: 5s 0s normal linear none infinite s243;
+}
+ @-ms-keyframes s243 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -292px;
+}
+}
+/*****************************************************************/
+
+
+
+
+/*****************************************************************/
+
+
+
+.s9-4 {
+	-ms-animation: 1s linear 0s normal none infinite s94;
+}
+@-ms-keyframes s94 {
+0% {
+ background-position: 0 0;
+}
+100% {
+ background-position: 0 491px;
+}
+}
+.s7-62 {
+	-ms-transform: perspective(800px) rotateY(50deg) scale(1.1);
+	-ms-transform-origin: 0 100% 0;
+}
+.s10-5 {
+	-ms-animation: 1s linear 0s none infinite s21s;
+}
+ @-ms-keyframes s21s {
+0% {
+ display:none;
+}
+ 100% {
+ display:block;
+}
+}
+.s24-4, .s3-6, .s3-7, .s4-5, .s6-5, .s7-7, .s16-6, .s13-1-1, .s13-3-1, .s12-3-1, .mubiaodian.hover {
+	-ms-animation: 1s linear 0s none infinite s21;
+}
+@-ms-keyframes s21 {
+0% {
+ opacity:1;
+}
+70% {
+ opacity:.3;
+}
+100% {
+ opacity:.5;
+}
+}
+.s1-3.css3 {
+	-ms-animation: 1.5s linear 0s none infinite startico;
+}
+@-ms-keyframes startico {
+0% {
+ opacity:1;
+ -ms-transform:translate3d(0, 0, 0)
+}
+70% {
+ opacity:.5;
+ -ms-transform:translate3d(0, 5px, 0)
+}
+100% {
+ -ms-transform:translate3d(0, 10px, 0)
+}
+}
+.s3-4.css3 {
+	-ms-animation: 1.5s linear 0s none infinite alternate startico2;
+}
+@-ms-keyframes startico2 {
+0% {
+ -ms-transform:translate3d(0, 0, 0)
+}
+70% {
+ -ms-transform:translate3d(0, 5px, 0)
+}
+100% {
+ -ms-transform:translate3d(0, 10px, 0)
+}
+}
+.s1-4.css3 {
+	-ms-animation: 3s linear 0s infinite alternate rotate;
+}
+.s1-1.css3, .s13-2-1.hover {
+	-ms-animation: 6s linear 0s infinite alternate rotate;
+}
+ @-ms-keyframes rotate {
+ from {
+-ms-transform:translate3d(0px, 0px, 0)
+}
+to {
+	-ms-transform: translate3d(2px, 20px, 0)
+}
+}
+.s1-2.css3 {
+	-ms-animation: 4s linear 0s infinite alternate rotate2;
+}
+ @-ms-keyframes rotate2 {
+ from {
+-ms-transform:translate3d(0px, 0px, 0) scale(2)
+}
+to {
+	-ms-transform: translate3d(2px, 20px, 0) scale(2)
+}
+}
+.s12-1-1, .s17-333 {
+	-ms-animation: 1s linear 0s infinite alternate huang1;
+}
+@-ms-keyframes huang1 {
+ from {
+-ms-transform:translate3d(0px, 0px, 0) rotate(0)
+}
+to {
+	-ms-transform: translate3d(2px, 2px, 0) rotate(2deg)
+}
+}
+.s17-2.hover {
+	-ms-animation: 10s linear 0s huang2;
+	-ms-transform: translate3d(-298px, -448px, 0) rotate(2deg)
+}
+@-ms-keyframes huang2 {
+ from {
+-ms-transform:translate3d(0px, 0px, 0) rotate(0)
+}
+to {
+	-ms-transform: translate3d(-298px, -448px, 0) rotate(2deg)
+}
+}
+/*.s10-7 {
+	-ms-animation: 9s linear 0s normal none  infinite daojis;
+}
+
+@-ms-keyframes daojis {
+0% {
+	background-position:0 0;
+}
+100% {
+	background-position:0 -414px;
+}
+}
+*/
+
+.s8-5 {
+	-ms-animation: 1s linear 0s normal none infinite spin;
+}
+@-ms-keyframes spin {
+0% {
+ -ms-transform: rotate(0deg);
+}
+100% {
+ -ms-transform: rotate(360deg);
+}
+}
+.s7-5 {
+	-ms-animation: btnico .5s steps(10) infinite;
+}
+ @-ms-keyframes btnico {
+0% {
+ background-position:0 0;
+}
+100% {
+ background-position:-4000px 0;
+}
+}
+.s19-sj {
+	-ms-animation: 1s linear 0s infinite alternate s360;
+	-ms-transform-origin: 50% 0 0;
+}
+ @-ms-keyframes s360 {
+0% {
+-ms-transform: perspective(400px) rotateY(50deg) rotateX(0deg);
+}
+ 100% {
+-ms-transform: perspective(400px) rotateY(-50deg) rotateX(-10deg);
+}
+}
+.s19-sj {
+	-ms-transform: perspective(400px) rotateY(0deg);
+	-ms-transform-origin: 50% 0 0;
+}
+.AZ_mubiao.hover, .mubiaodian.hover {
+	-ms-animation: 1.6s ease-out 0s mubiaodian;
+	opacity: 1;
+}
+ @-ms-keyframes mubiaodian {
+0% {
+ opacity:0;
+ -ms-transform:scale(0);
+}
+30% {
+ opacity:1;
+}
+60% {
+ opacity:0;
+}
+100% {
+ opacity:1;
+ -ms-transform:scale(1);
+}
+}
+.s18-8.hover {
+	-ms-animation: 1.6s ease-out 0s normal none spin2;
+	-ms-transform: rotate(-100deg);
+}
+ @-ms-keyframes spin2 {
+0% {
+ -ms-transform: rotate(0deg);
+}
+100% {
+ -ms-transform: rotate(-100deg);
+}
+}
+ @-ms-keyframes spin3 {
+0% {
+ -ms-transform:translate3d(0px, 0px, 0) scale(1);
+}
+50% {
+ -ms-transform:translate3d(0px, 0px, 0) scale(.8);
+}
+}
+ @-ms-keyframes spin3 {
+0% {
+ -ms-transform:translate3d(0px, 0px, 0) scale(1);
+}
+50% {
+ -ms-transform:translate3d(0px, 0px, 0) scale(.8);
+}
+}
+ @-ms-keyframes spin4 {
+0% {
+ -ms-transform:translate3d(0px, 0px, 0);
+}
+25% {
+ -ms-transform:translate3d(-2px, 3px, 0px);
+}
+75% {
+ -ms-transform:translate3d(-1px, 2px, 0px);
+}
+}
+ @-ms-keyframes spin5 {
+0% {
+ -ms-transform:translate3d(0px, 0px, 0);
+}
+100% {
+ -ms-transform:translate3d(270px, -50px, 0px) scale(0.2);
+}
+}
+.s26-1 {
+	-ms-animation: 2s linear 0s alternate none infinite spin6;
+}
+.s26-2 {
+	-ms-animation: 2s linear 0s alternate none infinite spin7;
+}
+ @-ms-keyframes spin6 {
+0% {
+ -ms-transform:translate3d(0px, 0px, 0);
+}
+100% {
+-ms-transform:translate3d(5px, 0px, 0px);
+}
+}
+@-ms-keyframes spin7 {
+0% {
+ -ms-transform:translate3d(9px, 0px, 0);
+}
+100% {
+-ms-transform:translate3d(0px, 0px, 0px);
+}
+}
+/*.loadbar {
+	-ms-animation: .5s linear 0s  alternate none infinite   newload; 
+}
+@-ms-keyframes newload {
+0% {
+ width:0;
+}
+100% {
+width: 175px;
+}
+}
+*/
+#step-1.hover {
+	-o-animation: 2s steps(13, end) 0s 1 forwards step1;
+	background-position: -6000px 0;
+}
+ @-o-keyframes step1 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:-5200px 0;
+}
+}
+#step-2.hover {
+	-o-animation: 1s steps(11, end) 0s normal none infinite step2;
+}
+#step-3.hover {
+	-o-animation: .8s steps(11, end) 0s normal none infinite step2;
+}
+ @-o-keyframes step2 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -5500px;
+}
+}
+#step-5.hover {
+	-o-animation: 1.2s steps(9, end) 0s normal none infinite step5;
+}
+ @-o-keyframes step5 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -4221px;
+}
+}
+#step-4.hover {
+	-o-animation: .3s steps(2, end) 0s normal none infinite step4;
+}
+ @-o-keyframes step4 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -758px;
+}
+}
+.s24-1 {
+	-o-animation: 1.5s steps(9, end) 0s normal none infinite s241;
+}
+ @-o-keyframes s241 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -1197px;
+}
+}
+#step-6.hover {
+	-o-animation: .8s steps(12, end) 0s 1 forwards step6;
+	background-position: 0 -3600px;
+}
+ @-o-keyframes step6 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -3600px;
+}
+}
+#step-7.hover {
+	-o-animation: 1.5s steps(12, end) 0s normal none step7;
+	background-position: -6216px 0;
+}
+ @-o-keyframes step7 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:-6216px 0;
+}
+}
+#step-8 {
+	-o-animation: .8s steps(23, end) 0s infinite alternate step8;
+}
+ @-o-keyframes step8 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -1725;
+}
+}
+.s24-3 {
+	-o-animation: 5s 0s normal linear none infinite s243;
+}
+ @-o-keyframes s243 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -292px;
+}
+}
+/*****************************************************************/
+
+
+
+
+/*****************************************************************/
+
+
+
+.s9-4 {
+	-o-animation: 1s linear 0s normal none infinite s94;
+}
+@-o-keyframes s94 {
+0% {
+ background-position: 0 0;
+}
+100% {
+ background-position: 0 491px;
+}
+}
+.s7-62 {
+	-o-transform: perspective(800px) rotateY(50deg) scale(1.1);
+	-o-transform-origin: 0 100% 0;
+}
+.s10-5 {
+	-o-animation: 1s linear 0s none infinite s21s;
+}
+ @-o-keyframes s21s {
+0% {
+ display:none;
+}
+ 100% {
+ display:block;
+}
+}
+.s24-4, .s3-6, .s3-7, .s4-5, .s6-5, .s7-7, .s16-6, .s13-1-1, .s13-3-1, .s12-3-1, .mubiaodian.hover {
+	-o-animation: 1s linear 0s none infinite s21;
+}
+@-o-keyframes s21 {
+0% {
+ opacity:1;
+}
+70% {
+ opacity:.3;
+}
+100% {
+ opacity:.5;
+}
+}
+.s1-3.css3 {
+	-o-animation: 1.5s linear 0s none infinite startico;
+}
+@-o-keyframes startico {
+0% {
+ opacity:1;
+ -o-transform:translate3d(0, 0, 0)
+}
+70% {
+ opacity:.5;
+ -o-transform:translate3d(0, 5px, 0)
+}
+100% {
+ -o-transform:translate3d(0, 10px, 0)
+}
+}
+.s3-4.css3 {
+	-o-animation: 1.5s linear 0s none infinite alternate startico2;
+}
+@-o-keyframes startico2 {
+0% {
+ -o-transform:translate3d(0, 0, 0)
+}
+70% {
+ -o-transform:translate3d(0, 5px, 0)
+}
+100% {
+ -o-transform:translate3d(0, 10px, 0)
+}
+}
+.s1-4.css3 {
+	-o-animation: 3s linear 0s infinite alternate rotate;
+}
+.s1-1.css3, .s13-2-1.hover {
+	-o-animation: 6s linear 0s infinite alternate rotate;
+}
+ @-o-keyframes rotate {
+ from {
+-o-transform:translate3d(0px, 0px, 0)
+}
+to {
+	-o-transform: translate3d(2px, 20px, 0)
+}
+}
+.s1-2.css3 {
+	-o-animation: 4s linear 0s infinite alternate rotate2;
+}
+ @-o-keyframes rotate2 {
+ from {
+-o-transform:translate3d(0px, 0px, 0) scale(2)
+}
+to {
+	-o-transform: translate3d(2px, 20px, 0) scale(2)
+}
+}
+.s12-1-1, .s17-333 {
+	-o-animation: 1s linear 0s infinite alternate huang1;
+}
+@-o-keyframes huang1 {
+ from {
+-o-transform:translate3d(0px, 0px, 0) rotate(0)
+}
+to {
+	-o-transform: translate3d(2px, 2px, 0) rotate(2deg)
+}
+}
+.s17-2.hover {
+	-o-animation: 10s linear 0s huang2;
+	-o-transform: translate3d(-298px, -448px, 0) rotate(2deg)
+}
+@-o-keyframes huang2 {
+ from {
+-o-transform:translate3d(0px, 0px, 0) rotate(0)
+}
+to {
+	-o-transform: translate3d(-298px, -448px, 0) rotate(2deg)
+}
+}
+/*.s10-7 {
+	-o-animation: 9s linear 0s normal none  infinite daojis;
+}
+
+@-o-keyframes daojis {
+0% {
+	background-position:0 0;
+}
+100% {
+	background-position:0 -414px;
+}
+}
+*/
+
+.s8-5 {
+	-o-animation: 1s linear 0s normal none infinite spin;
+}
+@-o-keyframes spin {
+0% {
+ -o-transform: rotate(0deg);
+}
+100% {
+ -o-transform: rotate(360deg);
+}
+}
+.s7-5 {
+	-o-animation: btnico .5s steps(10) infinite;
+}
+ @-o-keyframes btnico {
+0% {
+ background-position:0 0;
+}
+100% {
+ background-position:-4000px 0;
+}
+}
+.s19-sj {
+	-o-animation: 1s linear 0s infinite alternate s360;
+	-o-transform-origin: 50% 0 0;
+}
+ @-o-keyframes s360 {
+0% {
+-o-transform: perspective(400px) rotateY(50deg) rotateX(0deg);
+}
+ 100% {
+-o-transform: perspective(400px) rotateY(-50deg) rotateX(-10deg);
+}
+}
+.s19-sj {
+	-o-transform: perspective(400px) rotateY(0deg);
+	-o-transform-origin: 50% 0 0;
+}
+.AZ_mubiao.hover, .mubiaodian.hover {
+	-o-animation: 1.6s ease-out 0s mubiaodian;
+	opacity: 1;
+}
+ @-o-keyframes mubiaodian {
+0% {
+ opacity:0;
+ -o-transform:scale(0);
+}
+30% {
+ opacity:1;
+}
+60% {
+ opacity:0;
+}
+100% {
+ opacity:1;
+ -o-transform:scale(1);
+}
+}
+.s18-8.hover {
+	-o-animation: 1.6s ease-out 0s normal none spin2;
+	-o-transform: rotate(-100deg);
+}
+ @-o-keyframes spin2 {
+0% {
+ -o-transform: rotate(0deg);
+}
+100% {
+ -o-transform: rotate(-100deg);
+}
+}
+ @-o-keyframes spin3 {
+0% {
+ -o-transform:translate3d(0px, 0px, 0) scale(1);
+}
+50% {
+ -o-transform:translate3d(0px, 0px, 0) scale(.8);
+}
+}
+ @-o-keyframes spin3 {
+0% {
+ -o-transform:translate3d(0px, 0px, 0) scale(1);
+}
+50% {
+ -o-transform:translate3d(0px, 0px, 0) scale(.8);
+}
+}
+ @-o-keyframes spin4 {
+0% {
+ -o-transform:translate3d(0px, 0px, 0);
+}
+25% {
+ -o-transform:translate3d(-2px, 3px, 0px);
+}
+75% {
+ -o-transform:translate3d(-1px, 2px, 0px);
+}
+}
+ @-o-keyframes spin5 {
+0% {
+ -o-transform:translate3d(0px, 0px, 0);
+}
+100% {
+ -o-transform:translate3d(270px, -50px, 0px) scale(0.2);
+}
+}
+.s26-1 {
+	-o-animation: 2s linear 0s alternate none infinite spin6;
+}
+.s26-2 {
+	-o-animation: 2s linear 0s alternate none infinite spin7;
+}
+ @-o-keyframes spin6 {
+0% {
+ -o-transform:translate3d(0px, 0px, 0);
+}
+100% {
+-o-transform:translate3d(5px, 0px, 0px);
+}
+}
+@-o-keyframes spin7 {
+0% {
+ -o-transform:translate3d(9px, 0px, 0);
+}
+100% {
+-o-transform:translate3d(0px, 0px, 0px);
+}
+}
+/*.loadbar {
+	-o-animation: .5s linear 0s  alternate none infinite   newload; 
+}
+@-o-keyframes newload {
+0% {
+ width:0;
+}
+100% {
+width: 175px;
+}
+}
+*/
+#step-1.hover {
+	animation: 2s steps(13, end) 0s 1 forwards step1;
+	background-position: -6000px 0;
+}
+ @keyframes step1 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:-5200px 0;
+}
+}
+#step-2.hover {
+	animation: 1s steps(11, end) 0s normal none infinite step2;
+}
+#step-3.hover {
+	animation: .8s steps(11, end) 0s normal none infinite step2;
+}
+ @keyframes step2 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -5500px;
+}
+}
+#step-5.hover {
+	animation: 1.2s steps(9, end) 0s normal none infinite step5;
+}
+ @keyframes step5 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -4221px;
+}
+}
+#step-4.hover {
+	animation: .3s steps(2, end) 0s normal none infinite step4;
+}
+ @keyframes step4 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -758px;
+}
+}
+.s24-1 {
+	animation: 1.5s steps(9, end) 0s normal none infinite s241;
+}
+ @keyframes s241 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -1197px;
+}
+}
+#step-6.hover {
+	animation: .8s steps(12, end) 0s 1 forwards step6;
+	background-position: 0 -3600px;
+}
+ @keyframes step6 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -3600px;
+}
+}
+#step-7.hover {
+	animation: 1.5s steps(12, end) 0s normal none step7;
+	background-position: -6216px 0;
+}
+ @keyframes step7 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:-6216px 0;
+}
+}
+#step-8 {
+	animation: .8s steps(23, end) 0s infinite alternate step8;
+}
+ @keyframes step8 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -1725;
+}
+}
+.s24-3 {
+	animation: 5s 0s normal linear none infinite s243;
+}
+ @keyframes s243 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -292px;
+}
+}
+/*****************************************************************/
+
+
+
+
+/*****************************************************************/
+
+
+
+.s9-4 {
+	animation: 1s linear 0s normal none infinite s94;
+}
+@keyframes s94 {
+0% {
+ background-position: 0 0;
+}
+100% {
+ background-position: 0 491px;
+}
+}
+.s7-62 {
+	transform: perspective(800px) rotateY(50deg) scale(1.1);
+	transform-origin: 0 100% 0;
+}
+.s10-5 {
+	animation: 1s linear 0s none infinite s21s;
+}
+ @keyframes s21s {
+0% {
+ display:none;
+}
+ 100% {
+ display:block;
+}
+}
+.s24-4, .s3-6, .s3-7, .s4-5, .s6-5, .s7-7, .s16-6, .s13-1-1, .s13-3-1, .s12-3-1, .mubiaodian.hover {
+	animation: 1s linear 0s none infinite s21;
+}
+@keyframes s21 {
+0% {
+ opacity:1;
+}
+70% {
+ opacity:.3;
+}
+100% {
+ opacity:.5;
+}
+}
+.s1-3.css3 {
+	animation: 1.5s linear 0s none infinite startico;
+}
+@keyframes startico {
+0% {
+ opacity:1;
+ transform:translate3d(0, 0, 0)
+}
+70% {
+ opacity:.5;
+ transform:translate3d(0, 5px, 0)
+}
+100% {
+ transform:translate3d(0, 10px, 0)
+}
+}
+.s3-4.css3 {
+	animation: 1.5s linear 0s none infinite alternate startico2;
+}
+@keyframes startico2 {
+0% {
+ transform:translate3d(0, 0, 0)
+}
+70% {
+ transform:translate3d(0, 5px, 0)
+}
+100% {
+ transform:translate3d(0, 10px, 0)
+}
+}
+.s1-4.css3 {
+	animation: 3s linear 0s infinite alternate rotate;
+}
+.s1-1.css3, .s13-2-1.hover {
+	animation: 6s linear 0s infinite alternate rotate;
+}
+ @keyframes rotate {
+ from {
+transform:translate3d(0px, 0px, 0)
+}
+to {
+	transform: translate3d(2px, 20px, 0)
+}
+}
+.s1-2.css3 {
+	animation: 4s linear 0s infinite alternate rotate2;
+}
+ @keyframes rotate2 {
+ from {
+transform:translate3d(0px, 0px, 0) scale(2)
+}
+to {
+	transform: translate3d(2px, 20px, 0) scale(2)
+}
+}
+.s12-1-1, .s17-333 {
+	animation: 1s linear 0s infinite alternate huang1;
+}
+@keyframes huang1 {
+ from {
+transform:translate3d(0px, 0px, 0) rotate(0)
+}
+to {
+	transform: translate3d(2px, 2px, 0) rotate(2deg)
+}
+}
+.s17-2.hover {
+	animation: 10s linear 0s huang2;
+	transform: translate3d(-298px, -448px, 0) rotate(2deg)
+}
+@keyframes huang2 {
+ from {
+transform:translate3d(0px, 0px, 0) rotate(0)
+}
+to {
+	transform: translate3d(-298px, -448px, 0) rotate(2deg)
+}
+}
+/*.s10-7 {
+	animation: 9s linear 0s normal none  infinite daojis;
+}
+
+@keyframes daojis {
+0% {
+	background-position:0 0;
+}
+100% {
+	background-position:0 -414px;
+}
+}
+*/
+
+.s8-5 {
+	animation: 1s linear 0s normal none infinite spin;
+}
+@keyframes spin {
+0% {
+ transform: rotate(0deg);
+}
+100% {
+ transform: rotate(360deg);
+}
+}
+.s7-5 {
+	animation: btnico .5s steps(10) infinite;
+}
+ @keyframes btnico {
+0% {
+ background-position:0 0;
+}
+100% {
+ background-position:-4000px 0;
+}
+}
+.s19-sj {
+	animation: 1s linear 0s infinite alternate s360;
+	transform-origin: 50% 0 0;
+}
+ @keyframes s360 {
+0% {
+transform: perspective(400px) rotateY(50deg) rotateX(0deg);
+}
+ 100% {
+transform: perspective(400px) rotateY(-50deg) rotateX(-10deg);
+}
+}
+.s19-sj {
+	transform: perspective(400px) rotateY(0deg);
+	transform-origin: 50% 0 0;
+}
+.AZ_mubiao.hover, .mubiaodian.hover {
+	animation: 1.6s ease-out 0s mubiaodian;
+	opacity: 1;
+}
+ @keyframes mubiaodian {
+0% {
+ opacity:0;
+ transform:scale(0);
+}
+30% {
+ opacity:1;
+}
+60% {
+ opacity:0;
+}
+100% {
+ opacity:1;
+ transform:scale(1);
+}
+}
+.s18-8.hover {
+	animation: 1.6s ease-out 0s normal none spin2;
+	transform: rotate(-100deg);
+}
+ @keyframes spin2 {
+0% {
+ transform: rotate(0deg);
+}
+100% {
+ transform: rotate(-100deg);
+}
+}
+ @keyframes spin3 {
+0% {
+ transform:translate3d(0px, 0px, 0) scale(1);
+}
+50% {
+ transform:translate3d(0px, 0px, 0) scale(.8);
+}
+}
+ @keyframes spin3 {
+0% {
+ transform:translate3d(0px, 0px, 0) scale(1);
+}
+50% {
+ transform:translate3d(0px, 0px, 0) scale(.8);
+}
+}
+ @keyframes spin4 {
+0% {
+ transform:translate3d(0px, 0px, 0);
+}
+25% {
+ transform:translate3d(-2px, 3px, 0px);
+}
+75% {
+ transform:translate3d(-1px, 2px, 0px);
+}
+}
+ @keyframes spin5 {
+0% {
+ transform:translate3d(0px, 0px, 0);
+}
+100% {
+ transform:translate3d(270px, -50px, 0px) scale(0.2);
+}
+}
+.s26-1 {
+	animation: 2s linear 0s alternate none infinite spin6;
+}
+.s26-2 {
+	animation: 2s linear 0s alternate none infinite spin7;
+}
+ @keyframes spin6 {
+0% {
+ transform:translate3d(0px, 0px, 0);
+}
+100% {
+transform:translate3d(5px, 0px, 0px);
+}
+}
+@keyframes spin7 {
+0% {
+ transform:translate3d(9px, 0px, 0);
+}
+100% {
+transform:translate3d(0px, 0px, 0px);
+}
+}
+/*.loadbar {
+	animation: .5s linear 0s  alternate none infinite   newload; 
+}
+@keyframes newload {
+0% {
+ width:0;
+}
+100% {
+width: 175px;
+}
+}
+*/
