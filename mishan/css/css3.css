@@ -1,0 +1,518 @@
+#step-1.hover {
+	-webkit-animation: 2s steps(13, end) 0s 1 forwards step1;
+	background-position: -6000px 0;
+}
+ @-webkit-keyframes step1 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:-5200px 0;
+}
+}
+#step-2.hover {
+	-webkit-animation: 1s steps(11, end) 0s normal none infinite step2;
+}
+#step-3.hover {
+	-webkit-animation: .8s steps(11, end) 0s normal none infinite step2;
+}
+ @-webkit-keyframes step2 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -5500px;
+}
+}
+#step-5.hover {
+	-webkit-animation: 1.2s steps(9, end) 0s normal none infinite step5;
+}
+ @-webkit-keyframes step5 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -4221px;
+}
+}
+#step-4.hover {
+	-webkit-animation: .3s steps(2, end) 0s normal none infinite step4;
+}
+ @-webkit-keyframes step4 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -758px;
+}
+}
+.s24-1 {
+	-webkit-animation: 1.5s steps(9, end) 0s normal none infinite s241;
+}
+ @-webkit-keyframes s241 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -1197px;
+}
+}
+#step-6.hover {
+	-webkit-animation: .8s steps(12, end) 0s 1 forwards step6;
+	background-position: 0 -1650px;
+}
+ @-webkit-keyframes step6 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -3600px;
+}
+}
+#step-7.hover {
+	-webkit-animation: 1.5s steps(12, end) 0s normal none step7;
+	background-position: -6216px 0;
+}
+ @-webkit-keyframes step7 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:-6216px 0;
+}
+}
+#step-8 {
+	-webkit-animation: .8s steps(23, end) 0s infinite alternate step8;
+}
+ @-webkit-keyframes step8 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -1725px;
+}
+}
+.s24-3 {
+	-webkit-animation: 5s 0s normal linear none infinite s243;
+}
+ @-webkit-keyframes s243 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:0 -292px;
+}
+}
+/*****************************************************************/
+
+
+
+
+/*****************************************************************/
+
+
+
+.s9-4 {
+	-webkit-animation: 1s linear 0s normal none infinite s94;
+}
+@-webkit-keyframes s94 {
+0% {
+ background-position: 0 0;
+}
+100% {
+ background-position: 0 491px;
+}
+}
+.s7-62 {
+	-webkit-transform: perspective(800px) rotateY(50deg) scale(1.1);
+	-webkit-transform-origin: 0 100% 0;
+}
+.s10-5 {
+	-webkit-animation: 1s linear 0s none infinite s21s;
+}
+ @-webkit-keyframes s21s {
+0% {
+ display:none;
+}
+ 100% {
+ display:block;
+}
+}
+.s24-4, .s3-6, .s3-7, .s4-5, .s6-5, .s7-7, .s16-6, .s13-1-1, .s13-3-1, .s12-3-1, .mubiaodian.hover {
+	-webkit-animation: 1s linear 0s none infinite s21;
+}
+@-webkit-keyframes s21 {
+0% {
+ opacity:1;
+}
+70% {
+ opacity:.3;
+}
+100% {
+ opacity:.5;
+}
+}
+.s1-3.css3 {
+	-webkit-animation: 1.5s linear 0s none infinite startico;
+}
+@-webkit-keyframes startico {
+0% {
+ opacity:1;
+ -webkit-transform:translate3d(0, 0, 0)
+}
+70% {
+ opacity:.5;
+ -webkit-transform:translate3d(0, 5px, 0)
+}
+100% {
+ -webkit-transform:translate3d(0, 10px, 0)
+}
+}
+.s3-4.css3 {
+	-webkit-animation: 1.5s linear 0s none infinite alternate startico2;
+}
+@-webkit-keyframes startico2 {
+0% {
+ -webkit-transform:translate3d(0, 0, 0)
+}
+70% {
+ -webkit-transform:translate3d(0, 5px, 0)
+}
+100% {
+ -webkit-transform:translate3d(0, 10px, 0)
+}
+}
+.s1-4.css3 {
+	-webkit-animation: 3s linear 0s infinite alternate rotate;
+}
+.s1-1.css3, .s13-2-1.hover {
+	-webkit-animation: 6s linear 0s infinite alternate rotate;
+}
+ @-webkit-keyframes rotate {
+ from {
+-webkit-transform:translate3d(0px, 0px, 0)
+}
+to {
+	-webkit-transform: translate3d(2px, 20px, 0)
+}
+}
+.s1-2.css3 {
+	-webkit-animation: 4s linear 0s infinite alternate rotate2;
+}
+ @-webkit-keyframes rotate2 {
+ from {
+-webkit-transform:translate3d(0px, 0px, 0) scale(2)
+}
+to {
+	-webkit-transform: translate3d(2px, 20px, 0) scale(2)
+}
+}
+.s12-1-1, .s17-333 {
+	-webkit-animation: 1s linear 0s infinite alternate huang1;
+}
+@-webkit-keyframes huang1 {
+ from {
+-webkit-transform:translate3d(0px, 0px, 0) rotate(0)
+}
+to {
+	-webkit-transform: translate3d(2px, 2px, 0) rotate(2deg)
+}
+}
+.s17-2.hover {
+	-webkit-animation: 10s linear 0s huang2;
+	-webkit-transform: translate3d(-298px, -448px, 0) rotate(2deg)
+}
+@-webkit-keyframes huang2 {
+ from {
+-webkit-transform:translate3d(0px, 0px, 0) rotate(0)
+}
+to {
+	-webkit-transform: translate3d(-298px, -448px, 0) rotate(2deg)
+}
+}
+/*.s10-7 {
+	-webkit-animation: 9s linear 0s normal none  infinite daojis;
+}
+
+@-webkit-keyframes daojis {
+0% {
+	background-position:0 0;
+}
+100% {
+	background-position:0 -414px;
+}
+}
+*/
+
+.s8-5 {
+	-webkit-animation: 1s linear 0s normal none infinite spin;
+}
+@-webkit-keyframes spin {
+0% {
+ -webkit-transform: rotate(0deg);
+}
+100% {
+ -webkit-transform: rotate(360deg);
+}
+}
+.s7-5 {
+	-webkit-animation: btnico .5s steps(10) infinite;
+}
+ @-webkit-keyframes btnico {
+0% {
+ background-position:0 0;
+}
+100% {
+ background-position:-4000px 0;
+}
+}
+.s19-sj {
+	-webkit-animation: 1s linear 0s infinite alternate s360;
+	-webkit-transform-origin: 50% 0 0;
+}
+ @-webkit-keyframes s360 {
+0% {
+-webkit-transform: perspective(400px) rotateY(50deg) rotateX(0deg);
+}
+ 100% {
+-webkit-transform: perspective(400px) rotateY(-50deg) rotateX(-10deg);
+}
+}
+.s19-sj {
+	-webkit-transform: perspective(400px) rotateY(0deg);
+	-webkit-transform-origin: 50% 0 0;
+}
+.AZ_mubiao.hover, .mubiaodian.hover {
+	-webkit-animation: 1.6s ease-out 0s mubiaodian;
+	opacity: 1;
+}
+ @-webkit-keyframes mubiaodian {
+0% {
+ opacity:0;
+ -webkit-transform:scale(0);
+}
+30% {
+ opacity:1;
+}
+60% {
+ opacity:0;
+}
+100% {
+ opacity:1;
+ -webkit-transform:scale(1);
+}
+}
+.s18-8.hover {
+	-webkit-animation: 1.6s ease-out 0s normal none spin2;
+	-webkit-transform: rotate(-100deg);
+}
+ @-webkit-keyframes spin2 {
+0% {
+ -webkit-transform: rotate(0deg);
+}
+100% {
+ -webkit-transform: rotate(-100deg);
+}
+}
+ @-webkit-keyframes spin3 {
+0% {
+ -webkit-transform:translate3d(0px, 0px, 0) scale(1);
+}
+50% {
+ -webkit-transform:translate3d(0px, 0px, 0) scale(.8);
+}
+}
+ @-webkit-keyframes spin3 {
+0% {
+ -webkit-transform:translate3d(0px, 0px, 0) scale(1);
+}
+50% {
+ -webkit-transform:translate3d(0px, 0px, 0) scale(.8);
+}
+}
+ @-webkit-keyframes spin4 {
+0% {
+ -webkit-transform:translate3d(0px, 0px, 0);
+}
+25% {
+ -webkit-transform:translate3d(-2px, 3px, 0px);
+}
+75% {
+ -webkit-transform:translate3d(-1px, 2px, 0px);
+}
+}
+ @-webkit-keyframes spin5 {
+0% {
+ -webkit-transform:translate3d(0px, 0px, 0);
+}
+100% {
+ -webkit-transform:translate3d(270px, -50px, 0px) scale(0.2);
+}
+}
+.s26-1 {
+	-webkit-animation: 2s linear 0s alternate none infinite spin6;
+}
+.s26-2 {
+	-webkit-animation: 2s linear 0s alternate none infinite spin7;
+}
+ @-webkit-keyframes spin6 {
+0% {
+ -webkit-transform:translate3d(0px, 0px, 0);
+}
+100% {
+-webkit-transform:translate3d(5px, 0px, 0px);
+}
+}
+@-webkit-keyframes spin7 {
+0% {
+ -webkit-transform:translate3d(9px, 0px, 0);
+}
+100% {
+-webkit-transform:translate3d(0px, 0px, 0px);
+}
+}
+/*.loadbar {
+	-webkit-animation: .5s linear 0s  alternate none infinite   newload; 
+}
+@-webkit-keyframes newload {
+0% {
+ width:0;
+}
+100% {
+width: 175px;
+}
+}
+*/
+
+
+
+
+
+
+
+
+
+#step-1.hover {
+	-webkit-animation: 2s steps(13, end) 0s 1 forwards step1;
+	background-position: -6000px 0;
+}
+ @-webkit-keyframes step1 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:-5200px 0;
+}
+}
+
+
+
+
+
+.step25.css3 {
+	-moz-animation: 1s steps(4, end) 0s 1 forwards step25;
+}
+
+@-moz-keyframes step25 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:-2560px 0;
+}
+}
+
+
+
+.step25.css3 {
+	animation: 1s steps(4, end) 0s 1 forwards step25;
+}
+
+@keyframes step25 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:-2560px 0;
+}
+}
+
+.step25.css3 {
+	-webkit-animation: 1s steps(4, end) 0s 1 forwards step25;
+}
+
+@-webkit-keyframes step25 {
+ 0% {
+background-position:0 0;
+}
+ 100% {
+background-position:-2560px 0;
+}
+}
+
+
+
+
+
+.step25.css4 {
+	-moz-animation: 1s steps(2, end) 0s none infinite step26;
+}
+
+@-moz-keyframes step26 {
+ 0% {
+background-position:-1920px 0;
+}
+ 100% {
+background-position:-3200px 0;
+}
+}
+
+
+
+.step25.css4 {
+	animation: 1s steps(2, end) 0s none infinite step26;
+}
+
+@keyframes step26 {
+ 0% {
+background-position:-1920px 0;
+}
+ 100% {
+background-position:-3200px 0;
+}
+}
+
+.step25.css4 {
+	-webkit-animation: 1s steps(2, end) 0s none infinite step26;
+}
+
+@-webkit-keyframes step26 {
+ 0% {
+background-position:-1920px 0;
+}
+ 100% {
+background-position:-3200px 0;
+}
+}
+
+
+@-webkit-keyframes bounceInLeft{
+0%{opacity:0;
+-webkit-transform:translateX(-200px)}
+100%{opacity:1;-webkit-transform:translateX(0)}
+}
+@-moz-keyframes bounceInLeft{
+0%{opacity:0;
+-moz-transform:translateX(-200px)}
+100%{opacity:1;-moz-transform:translateX(0)}
+}
+@-webkit-keyframes bounceInRight{
+0%{opacity:0;
+-webkit-transform:translateX(200px)}
+100%{opacity:1;-webkit-transform:translateX(0)}
+}
+@-moz-keyframes bounceInRight{
+0%{opacity:0;
+-moz-transform:translateX(200px)}
+100%{opacity:1;-moz-transform:translateX(0)}
+}
